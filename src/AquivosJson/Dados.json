@@ -1,0 +1,26 @@
+{
+    "servicos":[
+        {
+            "id": 1,
+            "assunto": "Desenvolvimento de Aplicativos",
+            "descricao": "Desenvolvimento personalizado de aplicativos móveis e web para empresas de diversos segmentos."
+        },
+
+        {
+            "id":2,
+            "assunto": "Consultoria em TI",
+            "descricao": "Consultoria especializada em tecnologia da informação, oferecendo soluções estratégicas e implementação de sistemas."
+        },
+        {
+            "id": 3,
+            "assunto": "Integração de Sistemas",
+            "descricao": "Criação e otimização de plataformas de e-commerce para aumentar vendas e melhorar a experiência do usuário."
+        },
+        {
+            "id": 4,
+            "assunto": "Análise de Dados",
+            "descricao": "Análise avançada de dados para tomada de decisões estratégicas, utilizando técnicas de big data e machine learning."
+        }
+        
+    ]
+}

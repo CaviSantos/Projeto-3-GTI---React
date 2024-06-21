@@ -1,8 +1,31 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './PaginasPrimaria/Home';
+import Sobre from './PaginasPrimaria/Sobre';
+import Contato from './PaginasPrimaria/Contato';
 import reportWebVitals from './reportWebVitals';
+
+
+const App = () => {
+  const [nome, setNome] = useState('');
+
+  const handleNomeChange = (nome) => {
+    setNome(nome);
+  };
+
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home nome={nome} onNomeChange={handleNomeChange} />} />
+        <Route path="/Inicio" element={<Home nome={nome} onNomeChange={handleNomeChange} />} />
+        <Route path="/Sobre" element={<Sobre nome={nome} />} />
+        <Route path="/Contato" element={<Contato nome={nome} />} />
+      </Routes>
+    </Router>
+  );
+};
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -11,7 +34,4 @@ root.render(
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();

@@ -1,0 +1,28 @@
+
+
+{
+    "slide":[
+        {
+            "id":1,
+            "Sobrenome": "Silva",
+            "nome":"João da",
+            "imagem": "../images/mao.jpg",
+            "comentario":"Minha experiência com a empresa XYZ tem sido excepcional. Eles entregaram meu projeto de desenvolvimento de aplicativos com precisão e dentro do prazo. Recomendo fortemente seus serviços!"
+        },
+        {
+            "id":2,
+            "Sobrenome": "Souza",
+            "nome":"Maria",
+            "imagem": "../images/stalin.jpg",
+            "comentario":"Contratei a empresa XYZ para consultoria em TI e fiquei impressionada com a expertise da equipe. Eles trouxeram soluções inovadoras que impulsionaram nossa eficiência operacional. Excelente trabalho!"
+        },
+        {
+            "id":3,
+            "Sobrenome": "Oliveira",
+            "nome":"Pedro",
+            "imagem": "../images/kim.webp",
+            "comentario":"A integração de sistemas realizada pela empresa XYZ superou minhas expectativas. Eles não apenas melhoraram nossa plataforma de e-commerce, mas também aumentaram significativamente nossas vendas. Profissionais competentes e comprometidos!"
+        }
+
+    ]
+}
